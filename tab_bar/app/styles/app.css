@@ -1,0 +1,10 @@
+.topcoat-radio-button {
+	width: 100%;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.topcoat-list__item, .topcoat-list__item:last-child, .topcoat-list__item:first-child {
+	padding-left: 0 !important;
+}
+

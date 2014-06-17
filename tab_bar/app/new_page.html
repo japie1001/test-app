@@ -1,0 +1,25 @@
+<ons-page class="center" style="padding : 8px">
+	<ons-navigator-toolbar
+		title="New">
+	</ons-navigator-toolbar>
+
+	    <ons-text-input 
+            ng-model="text"
+            placeholder="Enter a small enjoyment" 
+            style="display: block; width: 100%">
+        </ons-text-input>
+
+        <ons-button 
+            type="cta-large" 
+            style="display: block; width: 100%; margin-top: 8px;"
+            ng-click="ons.navigator.pushPage('select_enjoyment.html')">
+            Next
+        </ons-button>
+	
+	<!-- <ons-button ng-click="ons.navigator.popPage();">
+		Save
+	</ons-button> -->
+</ons-page>
+
+
+
